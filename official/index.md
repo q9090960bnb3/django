@@ -23,3 +23,10 @@ python manage.py makemigrations polls
 # 查看迁移对应的sql
 python manage.py sqlmigrate polls 0001
 ```
+
+## 管理页面
+
+```sh
+# 创建一个能登录管理页面的用户
+python manage.py createsuperuser
+```
