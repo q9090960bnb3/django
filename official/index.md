@@ -30,3 +30,9 @@ python manage.py sqlmigrate polls 0001
 # 创建一个能登录管理页面的用户
 python manage.py createsuperuser
 ```
+
+## 运行测试
+
+```sh
+python manage.py test polls
+```
