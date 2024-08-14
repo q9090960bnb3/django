@@ -88,6 +88,23 @@ django = ">=4.2.9"
 sqlparse = ">=0.2"
 
 [[package]]
+name = "django-polls"
+version = "0.1"
+description = "A Django app to conduct web-based polls."
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "django_polls-0.1.tar.gz", hash = "sha256:d3204b5b4f91bce94032d335df4ad1ce7dd132279290f63bc0c57cda99ae043e"},
+]
+
+[package.dependencies]
+django = ">=5.1"
+
+[package.source]
+type = "file"
+url = "django-polls/dist/django_polls-0.1.tar.gz"
+
+[[package]]
 name = "packaging"
 version = "24.1"
 description = "Core utilities for Python packages"
@@ -160,4 +177,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.10.14"
-content-hash = "3a02e1baf53f16ac6cc93deac425679e532dd8956dc92abc3143bf7cd4b760a7"
+content-hash = "e4f29fdb0a9b93e0f8863ae338b0d58f29aefe4542317ac6fd321fe263312710"
